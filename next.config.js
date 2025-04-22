@@ -7,9 +7,7 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com', 'upload.wikimedia.org'],
   },
-  experimental: {
-    appDir: true,
-  },
+  // Removed experimental.appDir as it's now default in Next.js 14+
 };
 
 module.exports = nextConfig;
